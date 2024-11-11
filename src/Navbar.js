@@ -30,7 +30,7 @@ const Navbar = ({menu,setmenu,toggle}) => {
                  <Link className='l' to={'/about'}><li className="menuitems-mob"><a href="">About</a></li></Link>
                  <Link className='l' to={'/skills'}><li className="menuitems-mob"><a href="">Skills</a></li></Link>
                  <Link className='l' to={'/contact'}><li className="menuitems-mob"><a href="">Contact me</a></li></Link>
-                 <Link className='l' to={'/contact'}><li className="menuitems-mob"><a href="">Projects</a></li></Link>
+                 <Link className='l' to={'/project'}><li className="menuitems-mob"><a href="">Projects</a></li></Link>
                  <Link to={'https://wa.me/+916374191796?text=Hi Vharun!!' } className='l' target='_blank'><button className='nav-btn-mob'><span style={{color:'black',paddingRight:'5px',paddingTop:'5px'}}><FaWhatsapp/></span> whatsapp</button></Link>
               </ul>
         
